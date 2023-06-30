@@ -1,4 +1,4 @@
-### 179. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Largest Number
+### 179. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Largest Number - 最大组合数
 
 <i style="float:right">*Source: [LeetCode](https://leetcode.com/problems/largest-number/)*</i>
 
@@ -9,12 +9,12 @@ Given a list of non-negative integers `nums`, arrange them such that they form 
 ```python
 # Example 1
 nums = [10,2] # Input
-"210 # Output
+# Output "210"
 
 
 # Example 2
 nums = [3,30,34,5,9] # Input
-"9534330" # Output
+# Output "9534330"
 ```
 
 #### Solution
@@ -25,7 +25,7 @@ We use `__lt__` operator to compare combinations of two numbers. If all numbers 
 class compare(str):
     def __lt__(x, y):
         return x + y > y + x
-        
+
 class Solution:
     def largestNumber(self, nums):
         if all([x == 0 for x in nums]):

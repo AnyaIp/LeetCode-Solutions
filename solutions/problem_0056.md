@@ -1,4 +1,4 @@
-### 56. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Merge Intervals
+### 56. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Merge Intervals - 合并区间
 
 <i style="float:right">*Source: [LeetCode](https://leetcode.com/problems/merge-intervals/)*</i>
 
@@ -9,12 +9,12 @@ Given an array of `intervals` where `intervals[i] = [starti, endi]`, merge a
 ```python
 # Example 1
 intervals = [[1,3],[2,6],[8,10],[15,18]] # Input
-[[1,6],[8,10],[15,18]] # Output
+# Output [[1,6],[8,10],[15,18]]
 
 
 # Example 2
 intervals = [[1,4],[4,5]] # Input
-[[1,5]] # Output
+# Output [[1,5]]
 ```
 
 #### Solution

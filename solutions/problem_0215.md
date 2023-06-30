@@ -1,4 +1,4 @@
-### 215. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Kth Largest Element in an Array
+### 215. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Kth Largest Element in an Array - 数组中第k大的数字
 
 <i style="float:right">*Source: [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)*</i>
 
@@ -13,11 +13,11 @@ Given an integer array `nums` and an integer `k`, return *the* `kth` *larg
 ```python
 # Example 1
 nums, k = [3,2,1,5,6,4], 2 # Input
-5 # Output
+# Output 5 
 
 # Example 2
 nums, k = [3,2,3,1,2,4,5,5,6], 4 # Input
-4 # Output
+# Output 4 
 ```
 
 #### Solution

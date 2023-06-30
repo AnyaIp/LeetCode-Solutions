@@ -1,4 +1,4 @@
-### 27. <span style="color:#08979c;background:#e6fffb;border-color:#87e8de;padding:1px 6px;border-radius:5px;">Easy</span> Remove Element
+### 27. <span style="color:#08979c;background:#e6fffb;border-color:#87e8de;padding:1px 6px;border-radius:5px;">Easy</span> Remove Element - 移除元素
 
 <i style="float:right">Source: [LeetCode](https://leetcode.com/problems/remove-element/)</i>
 
@@ -14,12 +14,12 @@ Consider the number of elements in `nums` which are not equal to `val` be `
 ```python
 # Example 1
 nums, val = [3,2,2,3], 3 # Input
-2, [2,2,_,_] # Output
+# Output 2, [2,2,_,_]
 
 
 # Example 2
 nums, val = [0,1,2,2,3,0,4,2], 2 # Input
-5, [0,1,4,0,3,_,_,_] # Output
+# Output 5, [0,1,4,0,3,_,_,_]
 ```
 
 #### Solution

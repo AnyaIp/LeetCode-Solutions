@@ -1,4 +1,4 @@
-### 75. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Sort Colors
+### 75. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Sort Colors - 颜色排序
 
 <i style="float:right">*Source: [LeetCode](https://leetcode.com/problems/sort-colors/)*</i>
 
@@ -9,13 +9,12 @@ Given an array `nums` with `n` objects colored red, white, or blue, sort the
 ```python
 # Example 1
 nums = [2,0,2,1,1,0] # Input
-[0,0,1,1,2,2] # Output
+# Output [0,0,1,1,2,2]
 
 
 # Example 2
 nums = [2,0,1] # Input
-[-1,0,3,4,5] # Output
-
+# Output [-1,0,3,4,5]
 ```
 
 #### Solution

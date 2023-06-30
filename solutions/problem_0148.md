@@ -1,4 +1,4 @@
-### 148. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Sort List
+### 148. <span style="color:#d46b08;background:#fff7e6;border-color:#ffd591;padding:1px 6px;border-radius:5px">Medium</span> Sort List - 链表排序
 
 <i style="float:right">*Source: [LeetCode](https://leetcode.com/problems/sort-list/)*</i>
 
@@ -9,12 +9,12 @@ Given the `head` of a linked list, return *the list after sorting it in **as
 ```python
 # Example 1
 head = [4,2,1,3] # Input
-[1,2,3,4] # Output
+# Output [1,2,3,4] 
 
 
 # Example 2
 head = [-1,5,3,4,0] # Input
-[-1,0,3,4,5] # Output
+# Output [-1,0,3,4,5] 
 
 # Example 3
 head = [] # Input

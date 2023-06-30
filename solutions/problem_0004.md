@@ -1,4 +1,4 @@
-### 4. <span style="color:#cf1322;background:#fff1f0;border-color:#ffa39e;padding:1px 6px;border-radius:5px;">Hard</span> Median of Two Sorted Arrays
+### 4. <span style="color:#cf1322;background:#fff1f0;border-color:#ffa39e;padding:1px 6px;border-radius:5px;">Hard</span> Median of Two Sorted Arrays - 两个有序数组的中位数
 
 <i style="float:right">*Source: [LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/)*</i>
 
@@ -9,11 +9,11 @@ Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respecti
 ```python
 # Example 1
 nums1, nums2 = [1,3], [2] # Input
-2.00000 # Output
+# Output 2.00000
 
 # Example 2
 nums1, nums2 = [1,2], [3,4] # Input
-2.50000 # Output
+# Output 2.50000
 ```
 
 #### Solution
@@ -21,8 +21,6 @@ nums1, nums2 = [1,2], [3,4] # Input
 We can apply **floor division** `//` here. If the length of the number list is an odd number, the median is the number in the middle. Else if the length of the number list is  an even number, we take the mean of the two numbers in the middle.
 
 我们可以利用`//` 向下除法。
-
-
 
 ```python
 class Solution:
